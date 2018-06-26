@@ -4,6 +4,7 @@ Docker image based on [pgeof/apache-php](https://hub.docker.com/r/pgeof/apache-p
 
 ## Supported tags (corresponds to phalcon and php version)
 
+* v3.3.2-php7.2
 * v3.3.2-php7.1
 * v3.3.2-php7.0, latest
 * v3.3.2-php5.6
@@ -17,7 +18,7 @@ Docker image based on [pgeof/apache-php](https://hub.docker.com/r/pgeof/apache-p
 
 ## Phalcon rendering issue with php 7.0
 
-Be aware of an issue with Phalcon and `php 7.0 & 7.1`.
+Be aware of an issue with Phalcon and `php 7.0 & 7.1 & 7.2`.
 See [Diffrent volt partial() in php 5.6/7.0](https://github.com/phalcon/cphalcon/issues/12176)
 
 ## Usages

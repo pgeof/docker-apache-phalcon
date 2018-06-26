@@ -24,7 +24,7 @@ function buildV2 {
 function buildV3 {
     # Build phalcon v3
     for phalcon in "v3.3.2" ; do 
-        for php in "5.6" "7.1" "7.0" ; do
+        for php in "5.6" "7.1" "7.0" "7.2"; do
             v="${phalcon}-php${php}"
             (
                 cd php${php}
